@@ -1,6 +1,7 @@
 export class CopyToClipBoard {
-    constructor(text) {
+    constructor(text, event) {
         this.text = text
+        this.event = event
     }
     async copy() {
         try {
